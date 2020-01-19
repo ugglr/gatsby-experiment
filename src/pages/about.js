@@ -1,13 +1,12 @@
 import React from "react"
-
 import Layout from "../components/Layout"
 
-const indexPage = () => {
+const aboutPage = () => {
   return (
     <Layout>
-      <h1>卡尔</h1>
+      <p>about page.</p>
     </Layout>
   )
 }
 
-export default indexPage
+export default aboutPage
